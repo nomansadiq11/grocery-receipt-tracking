@@ -1,0 +1,60 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Private storage and least-privilege policy for grocery receipt processing.
+
+Resources:
+  ReceiptBucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  ReceiptProcessorPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      Description: Run the local grocery receipt processor against the private receipt bucket.
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: ListReceiptPrefixes
+            Effect: Allow
+            Action: s3:ListBucket
+            Resource: !GetAtt ReceiptBucket.Arn
+            Condition:
+              StringLike:
+                s3:prefix:
+                  - receipts/raw/*
+                  - receipts/textract/*
+                  - receipts/parsed/*
+          - Sid: ReadAndWriteReceiptObjects
+            Effect: Allow
+            Action:
+              - s3:GetObject
+              - s3:PutObject
+            Resource: !Sub '${ReceiptBucket.Arn}/receipts/*'
+          - Sid: AnalyzeReceipts
+            Effect: Allow
+            Action:
+              - textract:AnalyzeExpense
+              - textract:StartExpenseAnalysis
+              - textract:GetExpenseAnalysis
+            Resource: '*'
+
+Outputs:
+  BucketName:
+    Description: Private S3 bucket for raw receipts and processing output.
+    Value: !Ref ReceiptBucket
+  ProcessorPolicyArn:
+    Description: Attach this managed policy to the IAM principal used by the local Docker container.
+    Value: !Ref ReceiptProcessorPolicy
+  Prefixes:
+    Description: S3 prefixes used by the application.
+    Value: receipts/raw/ | receipts/textract/ | receipts/parsed/

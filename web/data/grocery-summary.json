@@ -1,0 +1,563 @@
+{
+  "generated_at": "2026-08-24T22:51:06.701145+00:00",
+  "receipts": [
+    {
+      "receipt_id": "6000326200922608241948",
+      "date": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 0.0,
+      "total": 100.36
+    },
+    {
+      "receipt_id": "6000326401482608241950",
+      "date": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 0.2,
+      "total": 4.38
+    },
+    {
+      "receipt_id": "6000326101312608211718",
+      "date": "2026-08-21",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 53.8,
+      "total": 56.49
+    },
+    {
+      "receipt_id": "6000326801742608202033",
+      "date": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "subtotal": 0.0,
+      "tax": 0.0,
+      "total": 0.0
+    },
+    {
+      "receipt_id": "6001127300462608172239",
+      "date": "2026-08-17",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 64.14,
+      "total": 67.34
+    },
+    {
+      "receipt_id": "6000326502702608142245",
+      "date": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 0.0,
+      "total": 51.95
+    },
+    {
+      "receipt_id": "6000326502712608142246",
+      "date": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 0.55,
+      "total": 11.49
+    },
+    {
+      "receipt_id": "6000326801362608111948",
+      "date": "2026-08-11",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 74.51,
+      "total": 78.23
+    },
+    {
+      "receipt_id": "6000326101772608052007",
+      "date": "2026-08-05",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 2.99,
+      "total": 62.92
+    },
+    {
+      "receipt_id": "6000308800692608031402",
+      "date": "2026-08-03",
+      "vendor": "viall closes",
+      "subtotal": 0.0,
+      "tax": 20.33,
+      "total": 21.35
+    },
+    {
+      "receipt_id": "6000326201262608032002",
+      "date": "2026-08-03",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "subtotal": 0.0,
+      "tax": 2.47,
+      "total": 51.69
+    }
+  ],
+  "products": [
+    {
+      "name": "Al Alali 473Mlbarcode 061795013160",
+      "latest_price": 5.19,
+      "average_price": 5.19,
+      "total_spent": 5.19,
+      "last_bought": "2026-08-03",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Al Marai Milk 1 Ga",
+      "latest_price": 21.79,
+      "average_price": 21.79,
+      "total_spent": 21.79,
+      "last_bought": "2026-08-17",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Al Marai Milk 1 Gabarcode 628100712925",
+      "latest_price": 21.79,
+      "average_price": 21.79,
+      "total_spent": 43.58,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 2
+    },
+    {
+      "name": "Al Marai Milk Ff 2Barcode 628100712040",
+      "latest_price": 12.49,
+      "average_price": 12.49,
+      "total_spent": 12.49,
+      "last_bought": "2026-08-05",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Al Marai Yg 1Kgbarcode 628100706306",
+      "latest_price": 7.79,
+      "average_price": 7.79,
+      "total_spent": 7.79,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Alm Cho 225Mlbarcode 628100706035",
+      "latest_price": 2.29,
+      "average_price": 2.29,
+      "total_spent": 2.29,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Alm Str 225Mlbarcode 628100706037",
+      "latest_price": 2.29,
+      "average_price": 2.29,
+      "total_spent": 2.29,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Apple Joya",
+      "latest_price": 15.29,
+      "average_price": 15.29,
+      "total_spent": 15.29,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Apt Adv 2 400G",
+      "latest_price": 56.49,
+      "average_price": 56.49,
+      "total_spent": 112.98,
+      "last_bought": "2026-08-21",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 2
+    },
+    {
+      "name": "Aravi Big",
+      "latest_price": 5.66,
+      "average_price": 5.66,
+      "total_spent": 5.66,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Avocado Hass",
+      "latest_price": 12.36,
+      "average_price": 12.7,
+      "total_spent": 25.41,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 2
+    },
+    {
+      "name": "B2B Vinyl Gloves P",
+      "latest_price": 8.99,
+      "average_price": 8.99,
+      "total_spent": 8.99,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Banana Chiquitabarcode 000002145170",
+      "latest_price": 17.1,
+      "average_price": 17.1,
+      "total_spent": 17.1,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Banana Ep",
+      "latest_price": 15.74,
+      "average_price": 14.78,
+      "total_spent": 29.55,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 2
+    },
+    {
+      "name": "Broccoli Ep",
+      "latest_price": 10.26,
+      "average_price": 10.26,
+      "total_spent": 10.26,
+      "last_bought": "2026-08-05",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Cauliflower Ep",
+      "latest_price": 6.86,
+      "average_price": 6.86,
+      "total_spent": 6.86,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Chili Green Bird",
+      "latest_price": 0.52,
+      "average_price": 0.52,
+      "total_spent": 0.52,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Coca Cola 330Mlsiss",
+      "latest_price": 1.99,
+      "average_price": 1.99,
+      "total_spent": 1.99,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Crf Bio Maize Popc",
+      "latest_price": 5.0,
+      "average_price": 5.0,
+      "total_spent": 5.0,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Crf Egg Xlargex30Barcode 629401750652",
+      "latest_price": 23.79,
+      "average_price": 23.79,
+      "total_spent": 23.79,
+      "last_bought": "2026-08-05",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Cucumber Kg Ep",
+      "latest_price": 4.67,
+      "average_price": 4.67,
+      "total_spent": 4.67,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Eggplant Ep",
+      "latest_price": 5.04,
+      "average_price": 5.04,
+      "total_spent": 5.04,
+      "last_bought": "2026-08-05",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Fresh Salad Buffet",
+      "latest_price": 21.35,
+      "average_price": 21.35,
+      "total_spent": 21.35,
+      "last_bought": "2026-08-03",
+      "vendor": "viall closes",
+      "purchase_count": 1
+    },
+    {
+      "name": "Garlic Bag 450Gbarcode 694926410013",
+      "latest_price": 5.49,
+      "average_price": 5.49,
+      "total_spent": 5.49,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Grapefruit Star Ru",
+      "latest_price": 8.13,
+      "average_price": 8.13,
+      "total_spent": 8.13,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Grapes Red Pp",
+      "latest_price": 9.99,
+      "average_price": 9.99,
+      "total_spent": 9.99,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Haribo 80Gx3Barcode 829121601763",
+      "latest_price": 7.49,
+      "average_price": 7.49,
+      "total_spent": 7.49,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Lime Yellow",
+      "latest_price": 1.42,
+      "average_price": 1.42,
+      "total_spent": 1.42,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Lip Strw Zero 320Mbarcode 009800001071",
+      "latest_price": 2.49,
+      "average_price": 2.49,
+      "total_spent": 2.49,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Lp Mahin Mix Fruitbarcode 629401189517",
+      "latest_price": 4.99,
+      "average_price": 4.99,
+      "total_spent": 4.99,
+      "last_bought": "2026-08-03",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Lsn Tortilla P240G",
+      "latest_price": 9.99,
+      "average_price": 9.99,
+      "total_spent": 9.99,
+      "last_bought": "2026-08-03",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Lusine M/Bread600G",
+      "latest_price": 6.29,
+      "average_price": 6.79,
+      "total_spent": 13.58,
+      "last_bought": "2026-08-17",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 2
+    },
+    {
+      "name": "Maggi Sauce 700Mlbarcode 893480402681",
+      "latest_price": 18.99,
+      "average_price": 18.99,
+      "total_spent": 18.99,
+      "last_bought": "2026-08-03",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Mandarine Nadorcot",
+      "latest_price": 11.11,
+      "average_price": 11.11,
+      "total_spent": 11.11,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Marrow",
+      "latest_price": 8.36,
+      "average_price": 8.36,
+      "total_spent": 8.36,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Melon Sweet Long",
+      "latest_price": 8.45,
+      "average_price": 8.45,
+      "total_spent": 8.45,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Mnts Cndy Rnbw 14P",
+      "latest_price": 2.19,
+      "average_price": 2.19,
+      "total_spent": 2.19,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Mnts Cndy Rnbw 14Pbarcode 899080001324",
+      "latest_price": 2.19,
+      "average_price": 2.19,
+      "total_spent": 2.19,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Oman Chips 15Gr X",
+      "latest_price": 11.49,
+      "average_price": 11.49,
+      "total_spent": 11.49,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Plast Shopping Bag",
+      "latest_price": 0.25,
+      "average_price": 0.25,
+      "total_spent": 0.5,
+      "last_bought": "2026-08-14",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 2
+    },
+    {
+      "name": "Plum Black Pp",
+      "latest_price": 7.99,
+      "average_price": 7.99,
+      "total_spent": 7.99,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Potato Epbarcode",
+      "latest_price": 4.88,
+      "average_price": 4.88,
+      "total_spent": 4.88,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Ruh Biriyani 50G",
+      "latest_price": 4.49,
+      "average_price": 4.49,
+      "total_spent": 4.49,
+      "last_bought": "2026-08-17",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Ruh Chaat 100G",
+      "latest_price": 4.49,
+      "average_price": 4.49,
+      "total_spent": 4.49,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Ruh Mutton Bri 60G",
+      "latest_price": 4.49,
+      "average_price": 4.49,
+      "total_spent": 4.49,
+      "last_bought": "2026-08-17",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Sadia 2Kg1Kgbarcode 629400980977",
+      "latest_price": 52.99,
+      "average_price": 52.99,
+      "total_spent": 52.99,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Shan Mixed 320Gbarcode 078882107614",
+      "latest_price": 6.49,
+      "average_price": 6.49,
+      "total_spent": 6.49,
+      "last_bought": "2026-08-03",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Tomato Bunch Red P",
+      "latest_price": 5.64,
+      "average_price": 5.64,
+      "total_spent": 5.64,
+      "last_bought": "2026-08-20",
+      "vendor": "jaiall Clagles",
+      "purchase_count": 1
+    },
+    {
+      "name": "Tomato Plum Kg",
+      "latest_price": 15.74,
+      "average_price": 15.74,
+      "total_spent": 15.74,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "Wheat Rusk 305G",
+      "latest_price": 8.79,
+      "average_price": 8.79,
+      "total_spent": 8.79,
+      "last_bought": "2026-08-17",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    },
+    {
+      "name": "White Eggs Large X",
+      "latest_price": 18.99,
+      "average_price": 20.24,
+      "total_spent": 40.48,
+      "last_bought": "2026-08-24",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 2
+    },
+    {
+      "name": "White Eggs Largebarcode 629040000519",
+      "latest_price": 21.49,
+      "average_price": 21.49,
+      "total_spent": 21.49,
+      "last_bought": "2026-08-11",
+      "vendor": "Majid Al Futtaim Hypermarkets LLC",
+      "purchase_count": 1
+    }
+  ]
+}

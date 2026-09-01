@@ -1,0 +1,19 @@
+services:
+  processor:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - .:/app
+      - ${HOME}/.aws:/home/app/.aws:ro
+    working_dir: /app
+
+  web:
+    image: python:3.12-alpine
+    working_dir: /site
+    volumes:
+      - ./web:/site:ro
+    ports:
+      - "${WEB_PORT:-8081}:8000"
+    command: python -m http.server 8000 --bind 0.0.0.0

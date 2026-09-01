@@ -1,0 +1,9 @@
+.env
+.git
+.gitignore
+__pycache__
+*.py[cod]
+receipts/raw/*
+!receipts/raw/.gitkeep
+web/data/*.private.json
+.DS_Store

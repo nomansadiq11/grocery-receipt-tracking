@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pantry Ledger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div><p class="kicker">HOUSEHOLD FINANCE / GROCERY</p><h1>Pantry Ledger</h1><p class="lede">A clear view of what the kitchen costs, one receipt at a time.</p></div>
+      <div class="status"><span class="status-dot"></span><span id="updated">Loading data</span></div>
+    </header>
+    <section class="metrics" aria-label="Spending overview">
+      <article class="metric metric-primary"><span>This month</span><strong id="this-month">$0.00</strong><small>receipt totals</small></article>
+      <article class="metric"><span>Last month</span><strong id="last-month">$0.00</strong><small>receipt totals</small></article>
+      <article class="metric"><span>Two-month total</span><strong id="two-months">$0.00</strong><small>recent spending</small></article>
+      <article class="metric"><span>Monthly average</span><strong id="average">$0.00</strong><small>across recorded months</small></article>
+    </section>
+    <section class="content-grid">
+      <div class="section-heading"><div><p class="kicker">PRICE MEMORY</p><h2>Products</h2></div><label class="search"><span>Search products</span><input id="product-search" type="search" placeholder="Milk, coffee, apples..."></label></div>
+      <div class="table-wrap"><table><thead><tr><th>Product</th><th>Latest</th><th>Average</th><th>Total spent</th><th>Last bought</th><th>Store</th></tr></thead><tbody id="products"></tbody></table><p class="empty" id="products-empty" hidden>No products match that search.</p></div>
+    </section>
+    <section class="content-grid receipts-section"><div class="section-heading"><div><p class="kicker">PAPER TRAIL</p><h2>Receipts</h2></div><span class="count" id="receipt-count">0 receipts</span></div><div class="receipt-list" id="receipts"></div></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
