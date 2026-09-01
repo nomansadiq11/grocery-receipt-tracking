@@ -42,7 +42,14 @@ The Compose processor mounts the project and read-only `~/.aws` credentials into
 
 ## GitHub Pages
 
-Publish the `web/` directory as the Pages source (for example, with a GitHub Actions Pages workflow). Commit only the cleaned `web/data/grocery-summary.json`; never commit `.env`, receipt files, or private S3 output. The included sample JSON makes the dashboard usable before the first processing run.
+This repository includes [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml), which deploys the `web/` folder to GitHub Pages on every push to `main` when `web/**` changes.
+
+1. In GitHub: Settings -> Pages -> Build and deployment -> Source, choose **GitHub Actions**.
+2. Push to `main`.
+3. Wait for the **Deploy Web To GitHub Pages** workflow to complete.
+4. Open the site URL from the workflow output.
+
+Commit only the cleaned `web/data/grocery-summary.json`; never commit `.env`, receipt files, or private S3 output. The included `.nojekyll` file ensures the static files are served exactly as generated.
 
 ## Cost estimate
 
