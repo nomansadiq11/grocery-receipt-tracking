@@ -51,6 +51,16 @@ This repository includes [`.github/workflows/deploy-pages.yml`](.github/workflow
 
 Commit only the cleaned `web/data/grocery-summary.json`; never commit `.env`, receipt files, or private S3 output. The included `.nojekyll` file ensures the static files are served exactly as generated.
 
+### If You Still See README On The Site
+
+If `https://<username>.github.io/<repo>/` shows README content, GitHub Pages is still deploying from a branch (`/` or `docs`) instead of GitHub Actions.
+
+1. Open repository Settings -> Pages.
+2. Set Source to **GitHub Actions**.
+3. Re-run or push to trigger **Deploy Web To GitHub Pages**.
+
+This repository also includes a root `index.html` redirect to `./web/`, so branch-based Pages will still open the dashboard while you switch settings.
+
 ## Cost estimate
 
 Textract AnalyzeExpense is approximately $0.01 per page. For example, 10 receipts per month at 2 pages each is about $0.20/month, plus small S3 storage and request charges. Check current AWS pricing for your region before production use.
